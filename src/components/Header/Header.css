@@ -1,0 +1,60 @@
+.header {
+  display: grid;
+  grid-template-columns: minmax(230px, 520px) 187px 352px;
+  width: 1120px;
+  height: 78px;
+  justify-content: space-between;
+}
+
+.header__logo {
+  margin-top: 8px;
+}
+
+.header__phone-container {
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.header__phone-icon {
+  background-image: url(../../images/phone.svg);
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+}
+
+.header__phone-number {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  text-decoration: none;
+  color: black;
+}
+
+.header__links-container {
+  align-self: center;
+  display: flex;
+}
+
+.header__link {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: white;
+  background-color: #098FCF;
+  text-decoration: none;
+  padding: 12px 25px;
+  transition: opacity 0.7s;
+}
+
+.header__link_with-icon {
+  display: flex;
+}
+
+.header__account-logo {
+  background-image: url(../../images/user.svg);
+  width: 20px;
+  height: 20px;
+  background-size: cover;
+  margin-right: 10px;
+}
