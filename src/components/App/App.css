@@ -1,5 +1,6 @@
 .page {
   font-family: Montserrat, Arial, Helvetica, sans-serif;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
