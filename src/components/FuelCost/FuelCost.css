@@ -1,0 +1,67 @@
+.fuel-cost {
+  width: 1120px;
+}
+
+.fuel-cost__table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 48px;
+}
+
+.fuel-cost__table-thead {
+  background-color: #043C77;
+  color: white;
+  height: 56px;
+}
+
+.fuel-cost__table-thead-cell {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  border: none;
+  padding-left: 30px;
+  text-align: start;
+}
+
+.fuel-cost__table-thead-cell:first-of-type {
+  padding-left: 20px;
+}
+
+.fuel-cost__table-thead-cell:nth-child(n+4) {
+  width: 17.5%;
+}
+
+
+.fuel-cost__table-blank-row {
+  height: 20px;
+}
+
+.fuel-cost__table-long-cell {
+  background-color: #098FCF;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 29px;
+  padding: 16px 0 0 20px;
+  vertical-align: top;
+  border: 1px solid #098FCF;
+}
+
+.fuel-cost__table-cell {
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  padding: 16px 0 0 30px;
+  vertical-align: top;
+  border-top: 1px solid #E7E7E7;
+  border-bottom: 1px solid #E7E7E7;
+  height: 32px;
+}
+
+.fuel-cost__table-cell:last-child {
+  border-right: 1px solid #E7E7E7;
+}
+
+.fuel-cost__table-cell_ecoclass {
+  border: 1px solid #E7E7E7;
+}

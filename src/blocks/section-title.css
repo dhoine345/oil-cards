@@ -1,5 +1,6 @@
-.section__title {
+.section-title {
   font-weight: bold;
   font-size: 36px;
   line-height: 44px;
+  margin: 0;
 }
