@@ -8,6 +8,8 @@
 
 .header__logo {
   margin-top: 8px;
+  width: 220px;
+  height: 62px;
 }
 
 .header__phone-container {

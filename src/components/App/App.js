@@ -3,6 +3,7 @@ import Header from '../Header/Header';
 import Navigation from '../Navigation/Navigation';
 import QuickOrder from '../QuickOrder/QuickOrder';
 import FuelCost from '../FuelCost/FuelCost';
+import Calculation from '../Calculation/Calculation';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Navigation />
       <QuickOrder />
       <FuelCost />
+      <Calculation />
     </div>
   );
 }

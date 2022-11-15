@@ -1,5 +1,5 @@
 import './Header.css';
-import logo from '../../images/logo.jpg';
+import logo from '../../images/1-AZS.jpg';
 import { phoneNumber, buttonName } from '../../utils/constants'
 
 function Header() {
